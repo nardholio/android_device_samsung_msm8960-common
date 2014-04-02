@@ -192,7 +192,6 @@ char * camera_fixup_setparams(struct camera_device * device, const char * settin
 #endif
 #endif
 
-#ifdef
 #ifdef SAMSUNG_CAMERA_MODE
     /* Samsung camcorder mode */
     if(!strcmp(camMode, "-1")) {
